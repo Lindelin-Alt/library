@@ -27,6 +27,3 @@
     "not dead"
   ]
 }
-"scripts": {
-  "predeploy": "echo '{\"rewrites\": [{\"source\": \"/(.*)\", \"destination\": \"/index.html\"}]}' > vercel.json"
-}
