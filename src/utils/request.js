@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import user from "@/views/user/User.vue";
 
 const request = axios.create({
-    baseURL: 'http://localhost:9090/api/',
+    baseURL: 'https://liber.huidi.site/api/',
     timeout: 5000
 })
 //request拦截器
